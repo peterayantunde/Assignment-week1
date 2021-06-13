@@ -1,0 +1,90 @@
+section{
+    padding: 2em;
+    margin: 1em;
+}
+
+body{
+    width: 60em;
+    margin: 0 auto;
+}
+/* start of frame 1 */
+.frame1{
+    flex-wrap: column wrap;
+    display: flex;
+    flex-direction: left;
+    justify-content: space-around;
+    /*width: 0%;
+    position: absolute;
+    align-content: center;*/
+    /* flex: 1 100%; */
+}
+.yellow{
+    background-color: yellow;
+}
+.yellow1 ul li{
+    text-decoration-color: white;
+    color: black;
+}
+.red{
+    background-color: red;
+
+}
+/* h1{ */
+    background-color: white;
+}
+/* .red_list{ */
+    background-color: white;
+    padding: 1em;
+    display: block;
+}
+ul{
+    padding: 0;
+
+}
+li{
+    background-color: white;
+    padding: 1em;
+    display: block;
+    margin: 1em;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.blue{
+    background-color: blue;
+}
+/* end of frame 1 */
+
+/* start of frame 2 */
+.frame2a{
+    flex-wrap: column;
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute; */
+    
+}
+.frame2ai{
+    /* flex-flow: row wrap; */
+    width: 600px;
+    height: 100px;
+}
+/* end of frame 2 */
+
+/* start of frame 3 */
+.frame3a{
+    flex-wrap: column;
+    display: flex;
+    justify-content: space-around;
+}
+/* end of frame 3 */
+
+/* start of frame 4  */
+.frame4a{
+    flex-wrap: column;
+    display: flex;
+    justify-content: space-around;
+    
+}
